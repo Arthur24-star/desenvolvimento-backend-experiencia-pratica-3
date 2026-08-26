@@ -47,27 +47,29 @@ Durante a investigação foram identificadas cinco requisições:
 
 Uma das principais requisições analisadas foi:
 
-```text
-Endpoint: /complete/search
-Método: GET
-Status: 200 OK
+**Endpoint:** `/complete/search`  
+**Método:** `GET`  
+**Status:** `200 OK`
 
-O método GET foi utilizado porque a operação possui finalidade de consulta, buscando informações relacionadas ao termo pesquisado sem alterar os dados do servidor.
+O método **GET** foi utilizado porque a operação possui finalidade de consulta, buscando informações relacionadas ao termo pesquisado sem alterar os dados do servidor.
 
-O código 200 OK indica que a requisição foi processada com sucesso e que os dados foram retornados corretamente ao cliente.
+O código **200 OK** indica que a requisição foi processada com sucesso e que os dados foram retornados corretamente ao cliente.
 
 Também foi analisada uma requisição utilizada durante o carregamento de um vídeo:
 
-Endpoint: /youtubei/v1/get_watch
-Método: POST
-Status: 200 OK
+**Endpoint:** `/youtubei/v1/get_watch`  
+**Método:** `POST`  
+**Status:** `200 OK`
 
 Essa chamada participa do processo de obtenção dos dados necessários para que o navegador possa apresentar o conteúdo selecionado.
 
-Arquitetura cliente-servidor
+---
+
+## Arquitetura cliente-servidor
 
 O fluxo de comunicação analisado pode ser representado da seguinte forma:
 
+```text
 Usuário
    ↓
 Navegador / Front-end
@@ -101,6 +103,7 @@ DevTools;
 Aba Network;
 Comunicação entre front-end e back-end;
 Fluxo de requisição e resposta.
+
 Resultado da experiência
 
 A experiência permitiu observar, na prática, como uma aplicação web realiza diversas comunicações com seus servidores durante ações realizadas pelo usuário.
