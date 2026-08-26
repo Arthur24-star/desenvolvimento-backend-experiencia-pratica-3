@@ -88,6 +88,8 @@ Atualização da interface
 
 Essa separação de responsabilidades permite que o cliente seja responsável pela interação e apresentação das informações, enquanto o servidor realiza o processamento das solicitações e disponibiliza os dados necessários.
 
+## Resultado da experiência
+
 Principais conhecimentos adquiridos
 
 Durante a experiência prática foram desenvolvidos conhecimentos relacionados a:
@@ -104,7 +106,9 @@ Aba Network;
 Comunicação entre front-end e back-end;
 Fluxo de requisição e resposta.
 
-Resultado da experiência
+---
+
+ 
 
 A experiência permitiu observar, na prática, como uma aplicação web realiza diversas comunicações com seus servidores durante ações realizadas pelo usuário.
 
@@ -114,9 +118,8 @@ Documentação
 
 O relatório completo desenvolvido durante a experiência prática está disponível neste repositório:
 
-Projeto do Arthur.pdf
 
-Autor
+## Autor
 
 Arthur Fernando Rodrigues Fonseca
 
