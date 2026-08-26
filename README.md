@@ -85,7 +85,7 @@ Resposta HTTP
 Navegador / Front-end
    ↓
 Atualização da interface
-
+```
 Essa separação de responsabilidades permite que o cliente seja responsável pela interação e apresentação das informações, enquanto o servidor realiza o processamento das solicitações e disponibiliza os dados necessários.
 
 ## Resultado da experiência
@@ -117,6 +117,8 @@ A investigação também demonstrou a importância de compreender a estrutura da
 Documentação
 
 O relatório completo desenvolvido durante a experiência prática está disponível neste repositório:
+
+[📄 Acessar relatório completo em PDF](./Projeto%20do%20Arthur.pdf)
 
 
 ## Autor
